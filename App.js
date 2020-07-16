@@ -15,6 +15,12 @@ return(
 }
 }
 
+  const TabNavigator = createBottomTabNavigator({
+  Transaction: {screen: TransactionScreen},
+  Search: {screen: SearchScreen},
+},
+);
+  
 const styles = StyleSheet.create({
   container: {
     flex: 1,
